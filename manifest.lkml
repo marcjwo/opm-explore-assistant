@@ -9,8 +9,8 @@ project_name: "explore_assistant"
 
 application: explore_assistant {
   label: "Explore Assistant"
-  url: "https://8080-cs-99e6f5bf-38ca-46bf-811f-e7ef233b5824.cs-us-central1-brqy.cloudshell.dev/"
-  # file: "/explore_assistant/bundle.js"
+  # url: "https://8080-cs-99e6f5bf-38ca-46bf-811f-e7ef233b5824.cs-us-central1-brqy.cloudshell.dev/"
+  file: "/explore_assistant/bundle.js"
   entitlements: {
     core_api_methods: ["lookml_model_explore","create_sql_query","run_sql_query","run_query","create_query"]
     navigation: yes
