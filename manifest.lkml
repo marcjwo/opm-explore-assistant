@@ -9,7 +9,7 @@ project_name: "explore_assistant"
 
 application: explore_assistant {
   label: "Explore Assistant"
-  # url: "https://127.0.0.1:8080/bundle.js"
+  # url: "https://localhost:8080/bundle.js"
   file: "/explore_assistant/bundle.js"
   entitlements: {
     core_api_methods: ["lookml_model_explore","create_sql_query","run_sql_query","run_query","create_query"]
@@ -19,7 +19,7 @@ application: explore_assistant {
     new_window: yes
     new_window_external_urls: ["https://developers.generativeai.google/*"]
     local_storage: yes
-    # external_api_urls: ["https://127.0.0.1:8080"]
+    external_api_urls: ["https://127.0.0.1:8080"]
   }
 }
 
